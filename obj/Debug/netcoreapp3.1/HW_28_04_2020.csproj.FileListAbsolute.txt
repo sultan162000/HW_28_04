@@ -1,0 +1,13 @@
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.csprojAssemblyReference.cache
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.csproj.CoreCompileInputs.cache
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.AssemblyInfoInputs.cache
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.AssemblyInfo.cs
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.exe
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.deps.json
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.runtimeconfig.json
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.runtimeconfig.dev.json
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.dll
+C:\project\HW_28_04_2020\bin\Debug\netcoreapp3.1\HW_28_04_2020.pdb
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.dll
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.pdb
+C:\project\HW_28_04_2020\obj\Debug\netcoreapp3.1\HW_28_04_2020.genruntimeconfig.cache
