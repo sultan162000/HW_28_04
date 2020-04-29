@@ -14,9 +14,7 @@ namespace HW_28_04_2020
             decimal balance = decimal.Parse(Console.ReadLine());
             Client newClient = new Client(1, name, balance);
             opWithClient te = new opWithClient(newClient);
-            Thread nit = new Thread(delegate () { Run(te); });
-            nit.IsBackground = true;
-            nit.Start();
+            
 
             
             bool checkUser = true;
