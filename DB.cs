@@ -5,9 +5,8 @@ namespace HW_28_04_2020
 {
     public class DB
     {
-        private static int keys = 1;
 
-        List<Client> clients = new List<Client>();
+        public List<Client> clients = new List<Client>();
         public DB(Client client)
         {
             clients.Add(client);
@@ -17,26 +16,41 @@ namespace HW_28_04_2020
         {
             if (balance > 0)
             {
-                clients[0].schet.Add(keys,balance);
-                keys++;
+                clients[0].balance = balance;
             }
             else System.Console.WriteLine("Неверное сумма.");
 
         }
 
-        public void Select()
+        public void Update(decimal balance)
         {
-            foreach (KeyValuePair<int, decimal> kvp in clients[0].schet)
+            System.Console.WriteLine("1.Добавить\n2.Взять");
+            switch (int.Parse(Console.ReadLine()))
             {
-                Console.WriteLine("Key = {0}, Value = {1}",kvp.Key, kvp.Value);
+                case 1:
+
+                    clients[0].balance += balance;
+                    break;
+                case 2:
+
+                    clients[0].balance -= balance;
+                    break;
+
             }
+
         }
 
-        public void Delete(int id){
-            if(clients[0].schet.ContainsKey(id)){
-                clients[0].schet.Remove(id);
-            }else System.Console.WriteLine("Несуществующий счет.");
+        public void Select()
+        {
+            Console.WriteLine("Полное имя = {0}, Сумма = {1}", clients[0].FullName, clients[0].balance);
         }
+
+        public void Delete(Client c)
+        {
+            clients.Remove(c);
+        }
+
+
 
     }
 }
